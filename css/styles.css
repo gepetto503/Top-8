@@ -10,30 +10,46 @@ body {
   font-family: sans-serif;
 }
 
+h4 {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 1px;
+  font-size: 12px;
+}
+
+img {
+  width: 80px;
+  margin: 2px;
+}
+
 .heading {
   background-color: #ffce99;
   color: #c98044;
+  /*font-size: 14px;*/
+}
+
+
+.friend {
+  float: left;
+  text-align: center;
+  margin-left: 40px;
+
+  /*background-color: green;*/
+}
+
+
+
+.border {
+  border: 2px solid blue;
+}
+
+.top8 {
+  width: 650px;
 }
 
 #friend-number {
   color: red;
 }
-
-h4 {
-  font-weight: bold;
-  color: blue;
-}
-
-img {
-  border: 1px solid blue;
-  width: 100px;
-  height: 100px;
-}
-
-.friend {
-  float: left;
-}
-
 
 #mariah {
   background: url("../img/will-mariah.jpg") 50% 50% no-repeat;
@@ -67,9 +83,10 @@ img {
 
 #neil {
   background: url("../img/neil.jpg") 50% 50% no-repeat;
-  background-size: cover;
+  background-size: 110px;
   width: 100px;
   height: 100px;
+  overflow: hidden;
 }
 
 #snoop {
@@ -92,4 +109,8 @@ img {
   background-size: cover;
   width: 100px;
   height: 100px;
+}
+
+.entire-thing {
+  width: 650px;
 }
