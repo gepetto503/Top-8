@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.heading {
+  background-color: #ffce99;
+  color: #c98044;
+}
+
+#friend-number {
+  color: red;
+}
+
+h4 {
+  font-weight: bold;
+  color: blue;
+}
+
+img {
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+}
+
+.friend {
+  float: left;
+}
+
+
+#mariah {
+  background: url("../img/will-mariah.jpg") 50% 50% no-repeat;
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#brittney {
+  background: url("../img/brittney.jpg") 80% 70% no-repeat;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+
+}
+
+#gwen {
+  background: url("../img/gwen.jpg") 50% 30% no-repeat;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#lmao {
+  background: url("../img/lmao.jpg") center center no-repeat;
+  background-size: 110px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+#neil {
+  background: url("../img/neil.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#snoop {
+  background: url("../img/snoop.png") 50% 20% no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#tboz {
+  background: url("../img/tboz.jpg") 50% 25% no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+
+#tupac {
+  background: url("../img/tupac.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
